@@ -1,0 +1,37 @@
+
+  mat-grid-tile {
+    background: rgba(105, 102, 102, 0.158);
+  }
+
+mat-form-field {
+    width: 100%;
+    margin: 50px;
+}
+
+
+.card {
+  margin: 0 auto;
+    margin-top: 0px;
+    width: 35%; 
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+
+
+.mff {
+
+    text-align: center;
+}
+
+
+.btnaceptar {
+    margin-right: 10px;
+}
+
+
+.title-words{
+  margin: 0px auto 0;
+  padding-bottom: 20px;
+  display: grid;
+  place-items: center;
+}

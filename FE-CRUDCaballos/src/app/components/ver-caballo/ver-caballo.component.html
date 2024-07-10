@@ -1,0 +1,51 @@
+
+<div class="container-title">
+    <mat-card appearance="outlined">
+      <mat-card-content> <h1 class="container-title-words">Ver/editar caballo</h1></mat-card-content>
+    </mat-card>
+</div>      
+    
+
+<div *ngIf="caballo!=null"  class="container-alt">
+
+    <mat-card appearance="outlined">
+
+
+        <mat-card-title class="centered"> <strong> {{ caballo.nombre }} </strong> </mat-card-title>
+        <mat-card-content><p> <strong>Edad: </strong>{{caballo.edad}} </p></mat-card-content>
+        <mat-card-content><p> <strong>Gordura: </strong>{{caballo.peso}}</p></mat-card-content>
+        <mat-card-content><p> <strong>Color: </strong> {{caballo.color}} </p></mat-card-content>
+        <mat-card-content><p> <strong>Raza: </strong> {{caballo.raza}} </p></mat-card-content>
+        
+        <mat-card-actions class="buttonVolver" style="display: flex; justify-content: center;">
+            <button  mat-flat-button routerLink="/ListadoDeCaballos"> Volver</button>
+        </mat-card-actions>
+    </mat-card>
+
+
+    
+
+
+
+
+</div>
+
+<mat-card class="example-card" appearance="outlined">
+
+  
+  <mat-card-header>
+
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Juan</mat-card-title>
+      <mat-card-subtitle>horse on a balcony</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="https://i.kym-cdn.com/photos/images/original/001/927/838/a21.jpg" alt="Photo of a wild Juan">
+    <mat-card-content>
+      <p>
+        Juan.
+        OG juan no text
+        #juan #MAN
+      </p>
+    </mat-card-content>
+  </mat-card>
+  

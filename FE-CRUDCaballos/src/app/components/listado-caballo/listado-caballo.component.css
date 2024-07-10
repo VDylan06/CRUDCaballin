@@ -1,0 +1,43 @@
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+table {
+  width: 100%;
+  font-size: 2em; 
+}
+
+td, th {
+  width: 20%; 
+  padding: 12px;
+  font-size: 1.5em;
+}
+
+.delete {
+  padding-left: 20%;
+  cursor: pointer;
+  color: #e15639;
+}
+
+.edit {
+  padding-left: 20%;
+  cursor: pointer;
+  color: blue;
+}
+
+.border{
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+  border-left: 0.5px solid black;
+  border-right: 0.5px solid black;
+  }
+
+  .centered {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  
+
+  
